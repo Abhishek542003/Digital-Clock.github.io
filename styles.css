@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Barlow&family=Hanken+Grotesk:ital,wght@0,300;1,300&family=Merriweather&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Noto+Serif&family=Overpass:ital@1&family=Roboto+Condensed&family=Sacramento&family=Sarabun:ital,wght@0,300;1,300&family=Sofia+Sans+Condensed:wght@600&family=Style+Script&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+footer
+{
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    text-align: center;
+}
+#digital-clock {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    width: 55%;
+    
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Sofia Sans Condensed',
+    sans-serif;
+    font-size: 84px;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    border: black 8px solid;
+    box-shadow: 12px 12px 2px 1px #373041;
+    
+}
+.clock-body
+{    
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: auto ;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    
+}
+
